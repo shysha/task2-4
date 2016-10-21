@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Page Style*/
+
+#wrapper {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+}
+
+#box1,
+#box2 {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 10px;
+    border: 5px solid red;
+    box-shadow: 0 10px 10px #999;
+    background: aqua;
+}
+
+#box2 { width: 130px;
+    height: 130px;
+    margin: 50px;
+    padding: 10px;
+    border: 5px solid red;
+    box-shadow: 0 10px 10px #999;
+    background: aqua;
+     box-sizing: border-box;
+}
+
+ .content1 {
+    width: 100px;
+    height: 100px;
+  
+    background-color: orange;
+}
+
+ .content2 {
+    width: 100px;
+    height: 100px;
+    
+    background-color: orange;
+  
+}
